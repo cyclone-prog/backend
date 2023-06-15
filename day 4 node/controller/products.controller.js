@@ -1,3 +1,5 @@
+// ---------In summary, these controller functions(getProducts and postProducts) utilize the Product model to perform database operations such as fetching products or creating new products and saving them to the MongoDB database. The responses are sent back to the client in the form of JSON objects with appropriate status codes and messages.----------------------------------//
+
 import Product from "../models/products.model.js";
 
 export const getProducts = async (req, res) => {
